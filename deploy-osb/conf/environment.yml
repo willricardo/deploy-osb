@@ -1,0 +1,27 @@
+---
+ environment:
+   dev:
+    user: weblogic
+    password: welcome1
+    url: 't3://localhost:7001'
+    wl_domain_home: /app/wls1036/Middleware/user_projects/domains/osb_domain
+   uat:
+    user: weblogic
+    password: welcome1
+    url: 't3://localhost:7001'
+    wl_domain_home: /app/wls1036/Middleware/user_projects/domains/osb_domain
+   prod:
+     blue:
+      user: weblogic
+      password: welcome1
+      url: 't3://localhost:7001'
+      wl_domain_home: /app/wls1036/Middleware/user_projects/domains/osb_domain
+     green:
+      user: weblogic
+      password: welcome1
+      url: 't3://localhost:7001'
+      wl_domain_home: /app/wls1036/Middleware/user_projects/domains/osb_domain
+ general_info:
+    basepath: '/tmp/'
+    session_name: BUILD-CI
+    #customization_file: '/home/willricardo/Downloads/ALSBCustomizationFile.xml'
